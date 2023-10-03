@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 23px;
+    background-color: #ffffff;
+}
+
+#input-box{
+    padding: 5%;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #a1a0a0;
+    outline: none;
+    margin-top: 10px;
+    color: rgb(21, 21, 21);
+}
+
+
+button{
+    background: transparent;
+    margin-top: 5px;
+    color: rgb(32, 32, 32);
+    padding: 8px 12px;
+    border: 1px solid #a1a0a0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#notes{
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+.note{
+    width: 300px;
+    color: #282828;
+    overflow-wrap: break-word;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid #a1a0a0;
+    background: transparent;
+}
+
+.deleteNote{
+    float: right;
+}
+
+#notes span {
+    font-weight: bold;
+}
